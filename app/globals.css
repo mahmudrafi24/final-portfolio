@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 0%; /* Black background */
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 5%; /* Very dark gray for cards */
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 183 54% 38%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 320 66% 39%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 47 91% 69%;
+    --accent-foreground: 0 0% 10%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 183 54% 38%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 0%; /* Black background */
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 5%; /* Very dark gray for cards */
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 183 54% 38%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 320 66% 39%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 47 91% 69%;
+    --accent-foreground: 0 0% 10%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 183 54% 38%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom gradient backgrounds */
+.bg-gradient-teal-yellow {
+  background: linear-gradient(90deg, #2e9599 0%, #f7dc68 100%);
+}
+
+.bg-gradient-yellow-coral {
+  background: linear-gradient(90deg, #f7dc68 0%, #f46c3f 100%);
+}
+
+.bg-gradient-coral-magenta {
+  background: linear-gradient(90deg, #f46c3f 0%, #a7226f 100%);
+}
+
+.bg-gradient-magenta-teal {
+  background: linear-gradient(90deg, #a7226f 0%, #2e9599 100%);
+}
+
+.bg-gradient-full {
+  background: linear-gradient(90deg, #2e9599 0%, #f7dc68 33%, #f46c3f 66%, #a7226f 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #f46c3f 0%, #a7226f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.skill-progress-bar {
+  @apply bg-gradient-to-r from-teal via-yellow to-coral;
+}
+
+.tech-logo {
+  @apply w-12 h-12 object-contain mb-3;
+}
+
+.logo-container {
+  @apply flex flex-col items-center justify-center p-4 rounded-lg border bg-card text-card-foreground shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+}
+
+.logo-container:hover .tech-logo {
+  @apply animate-float;
+}
+
+.season-card {
+  @apply relative overflow-hidden rounded-lg p-6 shadow-lg transition-all duration-300 hover:-translate-y-2;
+}
+
+.season-card.spring {
+  @apply bg-teal text-white;
+}
+
+.season-card.summer {
+  @apply bg-yellow text-dark;
+}
+
+.season-card.autumn {
+  @apply bg-coral text-white;
+}
+
+.season-card.winter {
+  @apply bg-magenta text-white;
+}
+
+/* Responsive utilities */
+.mobile-only {
+  @apply block md:hidden;
+}
+
+.desktop-only {
+  @apply hidden md:block;
+}
+
+/* Shimmer effect for cards */
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.05) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 8s ease-in-out infinite;
+}
+
+/* Responsive section padding */
+.section-padding {
+  @apply py-8 md:py-16 lg:py-24;
+}
+
+/* Glow effects */
+.glow-teal {
+  box-shadow: 0 0 15px rgba(46, 149, 153, 0.5);
+}
+
+.glow-coral {
+  box-shadow: 0 0 15px rgba(244, 108, 63, 0.5);
+}
+
+.glow-magenta {
+  box-shadow: 0 0 15px rgba(167, 34, 111, 0.5);
+}
+
+.glow-yellow {
+  box-shadow: 0 0 15px rgba(247, 220, 104, 0.5);
+}
