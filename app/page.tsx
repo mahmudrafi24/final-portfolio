@@ -342,7 +342,7 @@ export default function Home() {
               >
                 <div className="relative w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden border-4 border-teal glow-teal">
                   <Image
-                    src="/placeholder.svg?height=400&width=400"
+                    src="/resumeImage.jpeg?height=400&width=400"
                     width={400}
                     height={400}
                     alt="Developer Portrait"
