@@ -273,7 +273,7 @@ export default function Home() {
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                     <span className="text-gradient">Modacher Mahmud Rafi</span>
                   </h1>
-                  <p className="text-xl text-teal">Mobile App Developer</p>
+                  <p className="text-xl text-teal">Software Engineer</p>
                 </div>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl">
                   I build exceptional and accessible digital experiences for mobile platforms. Specialized in Flutter Architecture with 15+ Industry Standard App building experience.
@@ -292,7 +292,7 @@ export default function Home() {
                   </Link>
                 </div>
                 <div className="flex gap-4">
-                  <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://github.com/mahmudrafi24" target="_blank" rel="noopener noreferrer">
                     <Button
                       variant="ghost"
                       size="icon"
@@ -302,7 +302,7 @@ export default function Home() {
                       <span className="sr-only">GitHub</span>
                     </Button>
                   </Link>
-                  <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://x.com/ModacherRafi" target="_blank" rel="noopener noreferrer">
                     <Button
                       variant="ghost"
                       size="icon"
@@ -312,7 +312,7 @@ export default function Home() {
                       <span className="sr-only">Twitter</span>
                     </Button>
                   </Link>
-                  <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://www.linkedin.com/in/modacher-mahmud-rafi/" target="_blank" rel="noopener noreferrer">
                     <Button
                       variant="ghost"
                       size="icon"
@@ -322,7 +322,7 @@ export default function Home() {
                       <span className="sr-only">LinkedIn</span>
                     </Button>
                   </Link>
-                  <Link href="mailto:contact@example.com">
+                  <Link href="mailto:work.rafi.mahmud@gmail.com">
                     <Button
                       variant="ghost"
                       size="icon"
@@ -383,21 +383,22 @@ export default function Home() {
                 <h3 className="text-xl font-bold text-coral">Bachelor of Science in Software Engineering Major in Data Science</h3>
                 <p className="text-muted-foreground">Daffodil International University • 2020-2024</p>
                 <ul className="mt-2 list-disc pl-5 text-foreground">
-                  <li>Attended at Escape the Room Contest - 2021</li>
-                  <li>AWS Certified Developer - Associate</li>
-                  <li>React Native Advanced Patterns</li>
-                  <li>Flutter Development Bootcamp</li>
+                  <li>Attended at Escape the Room Contest - 2021 - Position : 31th </li>
+                  <li>Attended Unlock the Algorithm - 2021 - Position : 38th (Contest)</li>
+                  <li>Attended Unlock the Algorithm - 2022 - Position : 27th (Contest)</li>
+                  <li>Participate at 3rd DIU Data Science Summit - 2022</li>
+                  <li>Participate at 4th DIU Data Science Summit - 2024</li>
+                  <li>Attendent at Mobile Application Development Bootcam - SEC</li>
                 </ul>
               </motion.div>
               <motion.div
                 className="grid gap-1 p-4 rounded-lg border border-coral/20 bg-black shimmer"
                 variants={itemVariants}
               >
-                <h3 className="text-xl font-bold text-teal">Bachelor of Science in Software Engineering</h3>
-                <p className="text-muted-foreground">Daffodil International University • 2020-2025</p>
+                <h3 className="text-xl font-bold text-teal">HSC in Science</h3>
+                <p className="text-muted-foreground">Trust College, Uttara • 2017-2019</p>
                 <p className="mt-2 text-foreground">
-                  Graduated with honors. Focused on software architecture and mobile development. Participated in
-                  multiple hackathons and won the university's app development competition.
+                  Completed my HSC with a GPA of 5.00. It's just a result nothing more than that.
                 </p>
               </motion.div>
               <motion.div
@@ -405,12 +406,12 @@ export default function Home() {
                 variants={itemVariants}
               >
                 <h3 className="text-xl font-bold text-magenta">Certifications</h3>
-                <p className="text-muted-foreground">Various • 2018-Present</p>
+                <p className="text-muted-foreground">Various • I explore so many sub domain of Computer Science </p>
                 <ul className="mt-2 list-disc pl-5 text-foreground">
-                  <li>Google Certified Mobile Web Specialist</li>
-                  <li>AWS Certified Developer - Associate</li>
-                  <li>React Native Advanced Patterns</li>
-                  <li>Flutter Development Bootcamp</li>
+                  <li>Flutter UI Bootcamp | Build Beautiful Apps using Flutter - Udemy</li>
+                  <li>Flutter Store App GraphQl,Bloc, Freezed & Clean Architecture - Udemy</li>
+                  <li>Build 20 JavaScript Projects in 20 Day with HTML, CSS & JS - Udemy</li>
+                  <li>The Complete Python Programming Course: Beginner to Advanced - Udemy</li>
                 </ul>
               </motion.div>
             </div>
@@ -438,50 +439,60 @@ export default function Home() {
               </div>
             </motion.div>
             <div className="mx-auto grid max-w-5xl gap-8 py-8 md:py-12">
-              <motion.div
-                className="grid gap-1 p-4 rounded-lg border border-magenta/20 bg-dark-accent shimmer"
-                variants={itemVariants}
-              >
-                <h3 className="text-xl font-bold text-magenta">Senior Mobile Developer</h3>
-                <p className="text-muted-foreground">Tech Innovations Inc. • 2020-Present</p>
-                <p className="mt-2 text-foreground">
-                  Lead developer for the company's flagship mobile application with over 1 million downloads. Managed a
-                  team of 5 developers and implemented CI/CD pipelines that reduced deployment time by 40%.
-                </p>
-                <p className="mt-1">
-                  <span className="font-medium text-yellow">Technologies:</span> React Native, TypeScript, Redux,
-                  Firebase, Jest
-                </p>
-              </motion.div>
-              <motion.div
+            <motion.div
                 className="grid gap-1 p-4 rounded-lg border border-coral/20 bg-dark-accent shimmer"
                 variants={itemVariants}
               >
-                <h3 className="text-xl font-bold text-coral">Mobile Application Developer</h3>
-                <p className="text-muted-foreground">AppWorks Solutions • 2017-2020</p>
+                <h3 className="text-xl font-bold text-coral">Junior Software Engineer</h3>
+                <p className="text-muted-foreground">Sparktech Agency • 2025 - Present</p>
                 <p className="mt-2 text-foreground">
-                  Developed and maintained multiple iOS and Android applications for clients in finance, healthcare, and
-                  e-commerce sectors. Improved app performance by 30% through code optimization and architecture
-                  redesign.
+                <ul className="mt-2 list-disc pl-5 text-foreground">
+                  <li>Developed Android applications using Flutter with seamless integration of Firebase services (Auth, Firestore, Cloud Functions) for real-time data handling and user authentication.</li>
+                  <li>Implemented Google Maps API for location-based features including markers, geolocation, and custom map styling to enhance user interactivity.</li>
+                  <li>Delivered pixel-perfect UI designs by closely following Figma/Adobe XD prototypes, ensuring responsive layouts across multiple screen sizes and devices.</li>
+                </ul>
                 </p>
                 <p className="mt-1">
-                  <span className="font-medium text-yellow">Technologies:</span> Flutter, Dart, Swift, Kotlin, GraphQL
+                  <span className="font-medium text-yellow">Technologies:</span> Flutter, Dart, Firebase, RestAPI, GraphQL, Hive, Getx,Provider
                 </p>
               </motion.div>
               <motion.div
                 className="grid gap-1 p-4 rounded-lg border border-teal/20 bg-dark-accent shimmer"
                 variants={itemVariants}
               >
-                <h3 className="text-xl font-bold text-teal">Mobile Development Intern</h3>
-                <p className="text-muted-foreground">StartApp • Summer 2016</p>
-                <p className="mt-2 text-foreground">
-                  Assisted in developing a social media app that reached 50,000 downloads in the first month.
-                  Implemented key features including real-time messaging and location-based services.
-                </p>
+                <h3 className="text-xl font-bold text-teal">Software Engineer Intern</h3>
+                <p className="text-muted-foreground">Raise IT Ltd • Oct 2024 - Dec 2024</p>
+                <ul className="mt-2 list-disc pl-5 text-foreground">
+                  <li>Developed and maintained a Flutter-based browser application, ensuring smooth and efficient web browsing functionality.</li>
+                  <li>Integrated features such as download management, platform device ID recognition, and country-based user detection using APIs.</li>
+                  <li>Focused on UI/UX improvements, enhancing user experience with a responsive and intuitive design.</li>
+                  <li>Worked with Firebase to handle user authentication, data storage, and real-time updates.</li>
+                  <li>Implemented Provider for state management, optimizing performance and scalability.</li>
+                </ul>
                 <p className="mt-1">
-                  <span className="font-medium text-yellow">Technologies:</span> React Native, JavaScript, Firebase
+                  <span className="font-medium text-yellow">Technologies:</span> Flutter, Dart, Firebase, Provider, Getx
                 </p>
               </motion.div>
+              <motion.div
+                className="grid gap-1 p-4 rounded-lg border border-magenta/20 bg-dark-accent shimmer"
+                variants={itemVariants}
+              >
+                <h3 className="text-xl font-bold text-magenta">Python Trainer</h3>
+                <p className="text-muted-foreground">ICT Division of Bangladesh • Jan 2024 - Aug 2024</p>
+                <p className="mt-2 text-foreground">
+                <ul className="mt-2 list-disc pl-5 text-foreground">
+                  <li><b>Teaching Basic Python Programming: </b> Delivered training on fundamental Python concepts, including data types, loops, functions, and error handling.</li>
+                  <li><b>Database Integration with MySQL: </b> Guided trainees in connecting Python with MySQL databases, executing SQL queries, and managing data.</li>
+                  <li><b>Building Console Applications: </b> Helped participants develop basic console-based applications by integrating Python with database operations.</li>
+                  <li><b>Developing GUI Applications: </b> Taught the basics of creating simple GUI software using Python frameworks like Tkinter.</li>
+                </ul>
+                </p>
+                <p className="mt-1">
+                  <span className="font-medium text-yellow">Technologies:</span> Python, MySql, TkInter,
+                  PostgresQL
+                </p>
+              </motion.div>
+              
             </div>
           </div>
         </motion.section>
@@ -857,27 +868,27 @@ export default function Home() {
                   className="flex items-center gap-2 hover:text-teal transition-colors p-3 rounded-md hover:bg-black"
                 >
                   <Mail className="h-5 w-5 text-yellow" />
-                  <p className="text-foreground">contact@example.com</p>
+                  <p className="text-foreground">work.rafi.mahmud@gmail.com</p>
                 </Link>
                 <Link
-                  href="tel:+15551234567"
+                  href="tel:+8801799951107"
                   className="flex items-center gap-2 hover:text-teal transition-colors p-3 rounded-md hover:bg-black"
                 >
                   <Phone className="h-5 w-5 text-coral" />
-                  <p className="text-foreground">+1 (555) 123-4567</p>
+                  <p className="text-foreground">+880 1799 955107</p>
                 </Link>
                 <Link
-                  href="https://github.com/johndoe"
+                  href="https://github.com/mahmudrafi24"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 hover:text-teal transition-colors p-3 rounded-md hover:bg-black"
                 >
                   <Github className="h-5 w-5 text-magenta" />
-                  <p className="text-foreground">github.com/johndoe</p>
+                  <p className="text-foreground">github.com/mahmudrafi24</p>
                 </Link>
                 <div className="flex items-center gap-4 mt-4 p-3">
                   <Link
-                    href="https://twitter.com/johndoe"
+                    href="https://x.com/ModacherRafi"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-coral transition-colors"
@@ -885,7 +896,7 @@ export default function Home() {
                     <TwitterLogo />
                   </Link>
                   <Link
-                    href="https://linkedin.com/in/johndoe"
+                    href="https://www.linkedin.com/in/modacher-mahmud-rafi/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-magenta transition-colors"
@@ -897,19 +908,19 @@ export default function Home() {
                   <h3 className="text-xl font-bold mb-2 text-teal">Skills</h3>
                   <div className="flex flex-wrap gap-2">
                     <span className="inline-flex items-center rounded-md bg-dark-accent text-teal px-2 py-1 text-xs font-medium">
-                      React Native
+                      Dart
                     </span>
                     <span className="inline-flex items-center rounded-md bg-dark-accent text-yellow px-2 py-1 text-xs font-medium">
                       Flutter
                     </span>
                     <span className="inline-flex items-center rounded-md bg-dark-accent text-coral px-2 py-1 text-xs font-medium">
-                      Swift
+                      Python
                     </span>
                     <span className="inline-flex items-center rounded-md bg-dark-accent text-magenta px-2 py-1 text-xs font-medium">
-                      Kotlin
+                      Java
                     </span>
                     <span className="inline-flex items-center rounded-md bg-dark-accent text-teal px-2 py-1 text-xs font-medium">
-                      TypeScript
+                      C/C++
                     </span>
                     <span className="inline-flex items-center rounded-md bg-dark-accent text-yellow px-2 py-1 text-xs font-medium">
                       JavaScript
@@ -918,7 +929,7 @@ export default function Home() {
                       Firebase
                     </span>
                     <span className="inline-flex items-center rounded-md bg-dark-accent text-magenta px-2 py-1 text-xs font-medium">
-                      Redux
+                      PostgresQL
                     </span>
                     <span className="inline-flex items-center rounded-md bg-dark-accent text-teal px-2 py-1 text-xs font-medium">
                       GraphQL
@@ -1000,22 +1011,22 @@ export default function Home() {
         <div className="container flex flex-col items-center justify-center gap-4 px-4 md:px-6">
           <div className="flex items-center gap-2">
             <Smartphone className="h-5 w-5 text-teal" />
-            <p className="text-sm font-medium text-teal">John Doe • App Developer</p>
+            <p className="text-sm font-medium text-teal">Modacher Mahmud Rafi • Software Engineer</p>
           </div>
           <div className="flex gap-4">
-            <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/mahmudrafi24" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon" className="hover:scale-110 transition-transform hover:text-teal">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Button>
             </Link>
-            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://x.com/ModacherRafi" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon" className="hover:scale-110 transition-transform hover:text-coral">
                 <TwitterLogo />
                 <span className="sr-only">Twitter</span>
               </Button>
             </Link>
-            <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.linkedin.com/in/modacher-mahmud-rafi/" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon" className="hover:scale-110 transition-transform hover:text-magenta">
                 <LinkedInLogo />
                 <span className="sr-only">LinkedIn</span>
@@ -1023,7 +1034,7 @@ export default function Home() {
             </Link>
           </div>
           <p className="text-center text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} John Doe. All rights reserved.
+            &copy; {new Date().getFullYear()} Modacher Mahmud Rafi. All rights reserved.
           </p>
         </div>
       </footer>
