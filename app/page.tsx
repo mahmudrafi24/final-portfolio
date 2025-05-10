@@ -286,7 +286,7 @@ export default function Home() {
                     </Button>
                   </Link>
                   <Link href="#projects">
-                    <Button variant="outline" className="border-teal text-teal hover:bg-teal/10">
+                    <Button variant="outline" className="border-teal text-white hover:bg-white">
                       View My Work
                     </Button>
                   </Link>

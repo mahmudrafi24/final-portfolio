@@ -5,9 +5,8 @@ import { ThemeToggle } from "@/components/theme-toggle"
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata = {
-  title: "John Doe - App Developer Portfolio",
-  description: "Professional portfolio of John Doe, a mobile app developer specializing in React Native and Flutter",
-    generator: 'v0.dev'
+  title: "Rafi - Portfolio",
+  description: "Professional portfolio of Modacher Mahmud Rafi, a mobile app developer specializing in React Native and Flutter",
 }
 
 export default function RootLayout({
