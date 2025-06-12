@@ -94,6 +94,16 @@ export default function Home() {
     e.preventDefault()
     setIsSubmitting(true)
 
+    if (!formData.name || !formData.email || !formData.message) {
+      toast({
+        title: "Error",
+        description: "Please fill in all the required fields.",
+        variant: "destructive",
+      })
+      setIsSubmitting(false)
+      return
+    }
+
     try {
       await sendContactEmail(formData)
       toast({

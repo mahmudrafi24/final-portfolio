@@ -12,12 +12,12 @@ export async function sendContactEmail(data: ContactFormData) {
   // Create a test SMTP transporter
   // In production, you would use your actual email credentials
   const transporter = nodemailer.createTransport({
-    host: process.env.EMAIL_SERVER || "smtp.example.com",
-    port: Number.parseInt(process.env.EMAIL_PORT || "587"),
-    secure: false,
+    host: process.env.EMAIL_SERVER || "smtp.gmail.com",
+    port: Number.parseInt(process.env.EMAIL_PORT || "465"),
+    secure: true,
     auth: {
-      user: process.env.EMAIL_USER || "user@example.com",
-      pass: process.env.EMAIL_PASSWORD || "password",
+      user: process.env.EMAIL_USER || "modacher.mahmud.rafi@gmail.com",
+      pass: process.env.EMAIL_PASSWORD || "xunj znie swwt gebh",
     },
   })
 
@@ -29,7 +29,7 @@ export async function sendContactEmail(data: ContactFormData) {
   // Email content
   const mailOptions = {
     from: process.env.EMAIL_FROM || "portfolio@example.com",
-    to: process.env.EMAIL_TO || "your-email@example.com", // Your email where you want to receive messages
+    to: process.env.EMAIL_TO || "modacher.mahmud.rafi@gmail.com", // Your email where you want to receive messages
     subject: `Portfolio Contact: ${data.name}`,
     text: `
       Name: ${data.name}
